@@ -1,0 +1,67 @@
+﻿<Page x:Class="WpfApp1.Kat"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="700"
+      Title="Kat">
+
+    <Grid>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Width="220" Height="220" HorizontalAlignment="Left" VerticalAlignment="Top" Button.Click="Kniga1">
+                <Image Source="Image/cover.jpg" Width="100" HorizontalAlignment="Left" Margin="60,25,0,0"/>
+                <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="Остров Сокровищ" 
+                FontFamily="Comic Sans MS" 
+                           Margin="25,0,0,0"
+                FontSize="20" HorizontalAlignment="Left"/>
+                <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="Роберт Льюис Стивенсон" 
+                FontFamily="Comic Sans MS" 
+                FontSize="15" Margin="25,0,0,0" HorizontalAlignment="Left" />
+            </StackPanel>
+
+            <StackPanel Width="220" Height="220" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Image Source="Image/cover.jpg" Width="100" HorizontalAlignment="Left" Margin="60,25,0,0"/>
+                <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="Остров Сокровищ" 
+                FontFamily="Comic Sans MS" 
+                           Margin="25,0,0,0"
+                FontSize="20" HorizontalAlignment="Left"/>
+                <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="Роберт Льюис Стивенсон" 
+                FontFamily="Comic Sans MS" 
+                FontSize="15" Margin="25,0,0,0" HorizontalAlignment="Left" />
+            </StackPanel>
+
+            <StackPanel Width="220" Height="220" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Image Source="Image/cover.jpg" Width="100" HorizontalAlignment="Left" Margin="60,25,0,0"/>
+                <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="Остров Сокровищ" 
+                FontFamily="Comic Sans MS" 
+                           Margin="25,0,0,0"
+                FontSize="20" HorizontalAlignment="Left"/>
+                <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="Роберт Льюис Стивенсон" 
+                FontFamily="Comic Sans MS" 
+                FontSize="15" Margin="25,0,0,0" HorizontalAlignment="Left" />
+            </StackPanel>
+
+
+        </StackPanel>
+
+
+
+
+
+
+    </Grid>
+</Page>

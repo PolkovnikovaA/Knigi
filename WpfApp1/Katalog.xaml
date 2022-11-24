@@ -1,0 +1,28 @@
+﻿<Page x:Class="WpfApp1.Katalog"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="800"
+      Title="Katalog">
+
+    <Grid>
+        <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="«Книга – это сосуд, который нас наполняет,&#xA;               но сам не пустеет»" 
+                FontFamily="Comic Sans MS" 
+                FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,105,0,0" />
+
+        <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="                                                                   А. Декурсель" 
+                FontFamily="Comic Sans MS" 
+                FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,190,0,0" />
+
+        <Image Source="Image/7.png" Width="150" HorizontalAlignment="Left" Margin="10,75,0,-75" />
+
+
+    </Grid>
+</Page>

@@ -1,0 +1,90 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="850"
+        HorizontalContentAlignment="Center"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid 
+              Panel.ZIndex="-2"
+              Grid.ColumnSpan="5" 
+            Background="#FF76E383"/>
+
+        <Grid 
+              Panel.ZIndex="-2"
+              Grid.ColumnSpan="2" 
+            Grid.RowSpan="8"
+            Background="#FF76E383"/>
+
+        <Image Source="Image/6.png"
+               Grid.ColumnSpan="2"/>
+
+        <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="Дом Книги" 
+                FontFamily="Comic Sans MS" 
+                FontSize="25"
+                Grid.Column="1" 
+                   Grid.ColumnSpan="2"
+                VerticalAlignment="Center" 
+                HorizontalAlignment="Center" />
+
+        <Button Background="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Foreground="#FF498C51"
+                Content="Каталог" 
+                FontFamily="Comic Sans MS" 
+                FontSize="20"
+                Grid.Row="1" Grid.ColumnSpan="2"
+                Click="btnKatalog"/>
+
+        <Button Background="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Foreground="#FF498C51"
+                Content="Корзина" 
+                FontFamily="Comic Sans MS" 
+                FontSize="20"
+                Grid.Row="2" Grid.ColumnSpan="2"/>
+        
+
+        <Frame NavigationUIVisibility="Hidden" 
+               Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3" Grid.RowSpan="7"
+               Name="MainFrame"/>
+
+        <Button Background="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Foreground="#FF498C51"
+                Content="Назад" 
+                FontFamily="Comic Sans MS" 
+                FontSize="20"
+                Grid.Column="5"
+                Click="BtnBack_Click"/>
+
+
+
+
+
+    </Grid>
+</Window>
