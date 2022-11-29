@@ -10,49 +10,65 @@
 
     <Grid>
         <StackPanel Orientation="Horizontal">
-            <StackPanel Width="220" Height="220" HorizontalAlignment="Left" VerticalAlignment="Top" Button.Click="Kniga1">
-                <Image Source="Image/cover.jpg" Width="100" HorizontalAlignment="Left" Margin="60,25,0,0"/>
+            <StackPanel Width="220" Height="230" HorizontalAlignment="Left" VerticalAlignment="Top" Button.Click="Kniga1">
+                <Image Source="Image/Берсерк.jpg" Width="93" HorizontalAlignment="Left" Margin="60,25,0,0" Height="129" MouseLeftButtonDown="Bercerk"/>
                 <TextBlock Background="{x:Null}" 
                 Foreground="#FF498C51"
-                Text="Остров Сокровищ" 
+                Text="Берсерк" 
                 FontFamily="Comic Sans MS" 
-                           Margin="25,0,0,0"
-                FontSize="20" HorizontalAlignment="Left"/>
+                           Margin="0,0,0,0"
+                FontSize="20" HorizontalAlignment="Center"
+                           MouseLeftButtonDown="Bercerk"/>
                 <TextBlock Background="{x:Null}" 
                 Foreground="#FF498C51"
-                Text="Роберт Льюис Стивенсон" 
+                Text="Кэнтаро Миура" 
                 FontFamily="Comic Sans MS" 
-                FontSize="15" Margin="25,0,0,0" HorizontalAlignment="Left" />
+                FontSize="15" Margin="0,0,0,0" HorizontalAlignment="Center" />
+                <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="1180 руб.          5 ШТ." 
+                FontFamily="Comic Sans MS" 
+                FontSize="15" Margin="0,0,0,0" HorizontalAlignment="Center" />
             </StackPanel>
 
-            <StackPanel Width="220" Height="220" HorizontalAlignment="Left" VerticalAlignment="Top">
-                <Image Source="Image/cover.jpg" Width="100" HorizontalAlignment="Left" Margin="60,25,0,0"/>
+            <StackPanel Width="220" Height="230" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Image Source="Image/Кил ла кил.jpg" Width="84" HorizontalAlignment="Left" Margin="70,25,0,0" Height="130"/>
                 <TextBlock Background="{x:Null}" 
                 Foreground="#FF498C51"
-                Text="Остров Сокровищ" 
+                Text="Kill la Kill" 
                 FontFamily="Comic Sans MS" 
-                           Margin="25,0,0,0"
-                FontSize="20" HorizontalAlignment="Left"/>
+                           Margin="0,0,0,0"
+                FontSize="20" HorizontalAlignment="Center"/>
                 <TextBlock Background="{x:Null}" 
                 Foreground="#FF498C51"
-                Text="Роберт Льюис Стивенсон" 
+                Text="Kazuki Nakashima" 
                 FontFamily="Comic Sans MS" 
-                FontSize="15" Margin="25,0,0,0" HorizontalAlignment="Left" />
+                FontSize="15" Margin="0,0,0,0" HorizontalAlignment="Center" />
+                <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="758 руб.    'МНОГО'" 
+                FontFamily="Comic Sans MS" 
+                FontSize="15" Margin="0,0,0,0" HorizontalAlignment="Center" />
             </StackPanel>
 
-            <StackPanel Width="220" Height="220" HorizontalAlignment="Left" VerticalAlignment="Top">
-                <Image Source="Image/cover.jpg" Width="100" HorizontalAlignment="Left" Margin="60,25,0,0"/>
+            <StackPanel Width="220" Height="230" HorizontalAlignment="Left" VerticalAlignment="Top">
+                <Image Source="Image/Бензопила.jpg" Width="91" HorizontalAlignment="Left" Margin="60,25,0,0" Height="131"/>
                 <TextBlock Background="{x:Null}" 
                 Foreground="#FF498C51"
-                Text="Остров Сокровищ" 
+                Text="Человек-бензопила" 
                 FontFamily="Comic Sans MS" 
-                           Margin="25,0,0,0"
-                FontSize="20" HorizontalAlignment="Left"/>
+                           Margin="0,0,0,0"
+                FontSize="20" HorizontalAlignment="Center"/>
                 <TextBlock Background="{x:Null}" 
                 Foreground="#FF498C51"
-                Text="Роберт Льюис Стивенсон" 
+                Text="Тацуки Фудзимото" 
                 FontFamily="Comic Sans MS" 
-                FontSize="15" Margin="25,0,0,0" HorizontalAlignment="Left" />
+                FontSize="15" Margin="0,0,0,0" HorizontalAlignment="Center" />
+                <TextBlock Background="{x:Null}" 
+                Foreground="#FF498C51"
+                Text="926 руб.         3 ШТ." 
+                FontFamily="Comic Sans MS" 
+                FontSize="15" Margin="0,0,0,0" HorizontalAlignment="Center" />
             </StackPanel>
 
 

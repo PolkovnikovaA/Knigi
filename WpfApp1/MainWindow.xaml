@@ -5,13 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="550" Width="850"
+        Title="MainWindow" Height="550" Width="950"
         HorizontalContentAlignment="Center"
         WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="70"/>
             <ColumnDefinition Width="30"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
             <ColumnDefinition />
             <ColumnDefinition />
             <ColumnDefinition />
@@ -29,7 +34,7 @@
 
         <Grid 
               Panel.ZIndex="-2"
-              Grid.ColumnSpan="5" 
+              Grid.ColumnSpan="10" 
             Background="#FF76E383"/>
 
         <Grid 
@@ -46,7 +51,7 @@
                 Text="Дом Книги" 
                 FontFamily="Comic Sans MS" 
                 FontSize="25"
-                Grid.Column="1" 
+                Grid.Column="5" 
                    Grid.ColumnSpan="2"
                 VerticalAlignment="Center" 
                 HorizontalAlignment="Center" />
@@ -70,7 +75,7 @@
         
 
         <Frame NavigationUIVisibility="Hidden" 
-               Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="3" Grid.RowSpan="7"
+               Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="8" Grid.RowSpan="7"
                Name="MainFrame"/>
 
         <Button Background="{x:Null}" 
@@ -79,7 +84,7 @@
                 Content="Назад" 
                 FontFamily="Comic Sans MS" 
                 FontSize="20"
-                Grid.Column="5"
+                Grid.Column="10"
                 Click="BtnBack_Click"/>
 
 

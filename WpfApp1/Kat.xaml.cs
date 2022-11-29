@@ -30,5 +30,10 @@ namespace WpfApp1
             object tag = ((Button)e.OriginalSource).Tag;
             Manager.MainFrame.Navigate(new Kniga1());   //Не работает
         }
+
+        private void Bercerk(object sender, MouseButtonEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Kniga1.xaml", UriKind.Relative));
+        }
     }
 }
