@@ -32,12 +32,13 @@
             </StackPanel>
 
             <StackPanel Width="220" Height="230" HorizontalAlignment="Left" VerticalAlignment="Top">
-                <Image Source="Image/Кил ла кил.jpg" Width="84" HorizontalAlignment="Left" Margin="70,25,0,0" Height="130"/>
+                <Image Source="Image/Кил ла кил.jpg" Width="84" HorizontalAlignment="Left" Margin="70,25,0,0" Height="130" MouseLeftButtonDown="Kill_la_Kill"/>
                 <TextBlock Background="{x:Null}" 
                 Foreground="#FF498C51"
                 Text="Kill la Kill" 
                 FontFamily="Comic Sans MS" 
                            Margin="0,0,0,0"
+                           MouseLeftButtonDown="Kill_la_Kill"
                 FontSize="20" HorizontalAlignment="Center"/>
                 <TextBlock Background="{x:Null}" 
                 Foreground="#FF498C51"
@@ -52,11 +53,12 @@
             </StackPanel>
 
             <StackPanel Width="220" Height="230" HorizontalAlignment="Left" VerticalAlignment="Top">
-                <Image Source="Image/Бензопила.jpg" Width="91" HorizontalAlignment="Left" Margin="60,25,0,0" Height="131"/>
+                <Image Source="Image/Бензопила.jpg" Width="91" HorizontalAlignment="Left" Margin="60,25,0,0" Height="131" MouseLeftButtonDown="Benzopila"/>
                 <TextBlock Background="{x:Null}" 
                 Foreground="#FF498C51"
                 Text="Человек-бензопила" 
                 FontFamily="Comic Sans MS" 
+                           MouseLeftButtonDown="Benzopila"
                            Margin="0,0,0,0"
                 FontSize="20" HorizontalAlignment="Center"/>
                 <TextBlock Background="{x:Null}" 

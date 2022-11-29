@@ -23,6 +23,7 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+            MessageBox.Show("Добро пожаловать в ДОМ КНИГИ!");
             MainFrame.Navigate(new Katalog());
             Manager.MainFrame = MainFrame;
         }
@@ -35,6 +36,22 @@ namespace WpfApp1
         private void BtnBack_Click(object sender, RoutedEventArgs e)
         {
             Manager.MainFrame.GoBack();
+        }
+
+        private void Glavn(object sender, MouseButtonEventArgs e)
+        {
+            MainFrame.Content = new Katalog();
+        }
+
+        private void Exet(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Мы будем рады видеть вас снова :)");
+            Close();
+        }
+
+        private void Korzina(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new Korzina();
         }
     }
 }

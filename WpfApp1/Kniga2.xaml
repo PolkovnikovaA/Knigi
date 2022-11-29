@@ -1,0 +1,104 @@
+﻿<Page x:Class="WpfApp1.Kniga2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfApp1"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Kniga2">
+
+    <Grid>
+        <ScrollViewer>
+            <StackPanel >
+                <Image Source="Image/Кил ла кил.jpg" Width="139" HorizontalAlignment="Left" Margin="23,10,0,242"/>
+
+                <TextBlock Background="{x:Null}" 
+                           Foreground="#FF498C51"
+                           Text="Сумма: 758 руб." 
+                           FontFamily="Comic Sans MS" 
+                           FontSize="15"
+                           Height="25"
+                           Margin="33,-450,0,0"/>
+
+                <TextBlock Background="{x:Null}" 
+                           Foreground="#FF498C51"
+                           Text="Осталось: 'много'" 
+                           FontFamily="Comic Sans MS" 
+                           FontSize="15"
+                           Height="25"
+                           Margin="25,-400,0,0"/>
+
+                <Button Content="В КОРЗИНУ"
+                        Foreground="#FF498C51"
+                        Margin="20,-340,0,0"
+                        Width="140" Height="35"
+                        HorizontalAlignment="Left"
+                        Background="{x:Null}" 
+                        BorderBrush="#FF498C51"
+                        FontFamily="Comic Sans MS" 
+                        FontSize="20"
+                        Click="Message"/>
+
+                <Image Source="Image/Оценка 1.jpg" 
+                       HorizontalAlignment="Left"
+                       Margin="20,-250,0,0"
+                       Width="140" Height="36"/>
+
+                <TextBlock Background="{x:Null}" 
+                           Foreground="#FF498C51"
+                           Text="ОПИСАНИЕ" 
+                           FontFamily="Comic Sans MS" 
+                           FontSize="25"
+                           Height="35"
+                           Margin="177,-870,0,0"/>
+
+                <TextBlock Background="{x:Null}" 
+                           Foreground="#FF498C51"
+                           Text="Рюко Матой — девушка, путешествующая вместе с гигантской половиной&#xA;ножниц в качестве оружия, для того, чтобы найти обладателя другой половины&#xA;ножниц, человека, убившего её отца, Матой Иссина. Рюко поступает&#xA;в академию Хонноджи, школу, которая живёт и существует в страхе." 
+                           FontFamily="Comic Sans MS" 
+                           FontSize="15" 
+                           Margin="178,-590,19,145"
+                           Height="90"/>
+
+                <TextBlock Background="{x:Null}" 
+                           Foreground="#FF498C51"
+                           Text="Отзывы наших читателей" 
+                           FontFamily="Comic Sans MS" 
+                           FontSize="25"
+                           Height="35"
+                           Margin="177,-580,0,0" />
+
+                <StackPanel Orientation="Horizontal" Margin="175,-450,0,0" Height="70">
+                    <Image Source="Image/Отзыв 1.png" 
+                           Width="50" Height="50" 
+                           HorizontalAlignment="Left" 
+                           VerticalAlignment="Top"/>
+
+                    <TextBlock Background="{x:Null}" 
+                           Foreground="#FF498C51"
+                           Text="Kill la Kill – стало одним из самых любимых произведений у&#xA;незабываемого Имайси Хироюки.&#xA;С нетерпением жду новых работ!" 
+                           FontFamily="Comic Sans MS" 
+                           FontSize="15" Margin="15,0,0,0"/>
+
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Margin="175,-300,0,0" Height="70">
+                    <Image Source="Image/Отзыв 2.png" 
+                           Width="50" Height="50" 
+                           HorizontalAlignment="Left" 
+                           VerticalAlignment="Top"/>
+
+                    <TextBlock Background="{x:Null}" 
+                           Foreground="#FF498C51"
+                           Text="В целом Kill la Kill - это гротеск на гране фола , гиперболичность на гране&#xA;провала, и ко всему этому добавлены превращения аля сейлармун,&#xA;затмившие с лихой её же саму! Сложно такое оценивать. 9 из 10." 
+                           FontFamily="Comic Sans MS" 
+                           FontSize="15" Margin="15,0,0,0"/>
+
+                </StackPanel>
+            </StackPanel>
+
+        </ScrollViewer>
+
+    </Grid>
+</Page>

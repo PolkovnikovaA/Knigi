@@ -35,5 +35,15 @@ namespace WpfApp1
         {
             NavigationService.Navigate(new Uri("/Kniga1.xaml", UriKind.Relative));
         }
+
+        private void Kill_la_Kill(object sender, MouseButtonEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Kniga2.xaml", UriKind.Relative));
+        }
+
+        private void Benzopila(object sender, MouseButtonEventArgs e)
+        {
+            NavigationService.Navigate(new Uri("/Kniga3.xaml", UriKind.Relative));
+        }
     }
 }

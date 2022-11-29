@@ -44,7 +44,8 @@
             Background="#FF76E383"/>
 
         <Image Source="Image/6.png"
-               Grid.ColumnSpan="2"/>
+               Grid.ColumnSpan="2"
+               MouseLeftButtonDown="Glavn"/>
 
         <TextBlock Background="{x:Null}" 
                 Foreground="#FF498C51"
@@ -54,7 +55,8 @@
                 Grid.Column="5" 
                    Grid.ColumnSpan="2"
                 VerticalAlignment="Center" 
-                HorizontalAlignment="Center" />
+                HorizontalAlignment="Center"
+                   MouseLeftButtonDown="Glavn"/>
 
         <Button Background="{x:Null}" 
                 BorderBrush="{x:Null}" 
@@ -71,8 +73,18 @@
                 Content="Корзина" 
                 FontFamily="Comic Sans MS" 
                 FontSize="20"
-                Grid.Row="2" Grid.ColumnSpan="2"/>
-        
+                Grid.Row="2" Grid.ColumnSpan="2"
+                Click="Korzina"/>
+
+        <Button Background="{x:Null}" 
+                BorderBrush="{x:Null}" 
+                Foreground="#FF498C51"
+                Content="Выход" 
+                FontFamily="Comic Sans MS" 
+                FontSize="20"
+                Grid.Row="7" Grid.ColumnSpan="2"
+                Click="Exet"/>
+
 
         <Frame NavigationUIVisibility="Hidden" 
                Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="8" Grid.RowSpan="7"

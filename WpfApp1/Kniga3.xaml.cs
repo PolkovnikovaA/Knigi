@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для Kniga1.xaml
+    /// Логика взаимодействия для Kniga3.xaml
     /// </summary>
-    public partial class Kniga1 : Page
+    public partial class Kniga3 : Page
     {
-        public Kniga1()
+        public Kniga3()
         {
             InitializeComponent();
         }

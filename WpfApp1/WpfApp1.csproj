@@ -67,6 +67,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Kniga2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Kniga3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Korzina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -83,6 +95,15 @@
     </Compile>
     <Compile Include="Kniga1.xaml.cs">
       <DependentUpon>Kniga1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kniga2.xaml.cs">
+      <DependentUpon>Kniga2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kniga3.xaml.cs">
+      <DependentUpon>Kniga3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Korzina.xaml.cs">
+      <DependentUpon>Korzina.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -136,6 +157,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\Берсерк.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Отзыв 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Отзыв 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Оценка 1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

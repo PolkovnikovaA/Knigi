@@ -16,18 +16,18 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Логика взаимодействия для Kniga1.xaml
+    /// Логика взаимодействия для Korzina.xaml
     /// </summary>
-    public partial class Kniga1 : Page
+    public partial class Korzina : Page
     {
-        public Kniga1()
+        public Korzina()
         {
             InitializeComponent();
         }
 
-        private void Message(object sender, RoutedEventArgs e)
+        private void Zakaz(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Книга была добавлена в корзину!");
+            MessageBox.Show("Заказ был оформлен!");
         }
     }
 }
